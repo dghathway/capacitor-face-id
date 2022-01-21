@@ -1,9 +1,9 @@
 // @ts-ignore
-declare module '@capacitor/core' {
-  interface PluginRegistry {
-    FaceId: FaceIdPlugin;
-  }
-}
+// declare module '@capacitor/core' {
+//   interface PluginRegistry {
+//     FaceId: FaceIdPlugin;
+//   }
+// }
 
 export interface FaceIdPluginIsAvailableResult {
   /**  Returns available biometric type or 'None' if unavailable */

@@ -1,8 +1,3 @@
-declare module '@capacitor/core' {
-    interface PluginRegistry {
-        FaceId: FaceIdPlugin;
-    }
-}
 export interface FaceIdPluginIsAvailableResult {
     /**  Returns available biometric type or 'None' if unavailable */
     value: 'None' | 'TouchId' | 'FaceId';
