@@ -10,17 +10,17 @@ Allow users to authenticate with Face ID or Touch ID on iOS devices
 ## Installation
 
 ```sh
-npm install capacitor-face-id
+npm install github.com/dghathway/capacitor-face-id
 ```
 
 ## iOS Notes
 
 iOS requires the following usage description be added and filled out for your app in `Info.plist`:
 
-Name: `Privacy - Face ID Usage Description`
-<br>
-Key: `NSFaceIDUsageDescription`
-String: `$(PRODUCT_NAME) Authentication with TouchId or FaceID`
+ ```
+ <key>NSFaceIDUsageDescription</key>
+<string>$(PRODUCT_NAME) Authentication with TouchId or FaceID</string>
+```
 
 ## Example
 
