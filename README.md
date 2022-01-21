@@ -20,13 +20,12 @@ iOS requires the following usage description be added and filled out for your ap
 Name: `Privacy - Face ID Usage Description`
 <br>
 Key: `NSFaceIDUsageDescription`
+String: `$(PRODUCT_NAME) Authentication with TouchId or FaceID`
 
 ## Example
 
 ```ts
-import { Plugins, PluginResultError } from '@capacitor/core';
-
-const { FaceId } = Plugins;
+import {FaceId} from 'capacitor-face-id';
 
 ...
 // check if device supports Face ID or Touch ID
