@@ -1,4 +1,4 @@
-# Capacitor Face ID Plugin
+# Capacitor 3 Face ID Plugin
 
 [![npm version](https://badge.fury.io/js/capacitor-face-id.svg)](https://badge.fury.io/js/capacitor-face-id)
 ![Build](https://github.com/danielsogl/capacitor-face-id/workflows/Build/badge.svg)
